@@ -1,0 +1,89 @@
+<nav class="">
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="/" class="flex items-center">
+      <svg class="w-8 md:w-10 lg:w-12 text-blue-600 mr-3 fill-current" viewbox="0 0 94.75 94.75">
+        <defs>
+          <path id="a" d="m19 76v19h4a4 4-180 004-4v-19a4 4-180 00-4-4h-19a4 4-180 00-4 4v4h19" />
+        </defs>
+        <use href="#a" transform="translate(18.13 -18.13)" />
+        <use href="#a" transform="rotate(180 38.31 56.44)" />
+        <use href="#a" transform="rotate(-90 29.25 47.38)" />
+        <use href="#a" transform="rotate(90 47.38 65.5)" />
+      </svg>
+      <span
+        class="self-center text-xl md:text-2xl lg:text-3xl font-semibold whitespace-nowrap">{{metadata.businessname}}</span>
+    </a>
+    <button data-collapse-toggle="mobile-menu" type="button"
+      class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-400"
+      aria-controls="mobile-menu" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"></path>
+      </svg>
+      <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
+      <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium">
+        <li>
+          <a href="/"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:hover:underline md:decoration-blue-600 md:decoration-4">
+            Home</a>
+        </li>
+        <li>
+          <a href="/services"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:hover:underline md:decoration-blue-600 md:decoration-4">
+            Services</a>
+        </li>
+        <li>
+          <a href="/team"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:hover:underline md:decoration-blue-600 md:decoration-4">
+            Team</a>
+        </li>
+        <li>
+          <a href="/clinic"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:hover:underline md:decoration-blue-600 md:decoration-4">
+            Clinic</a>
+        </li>
+        <li>
+          <a href="/contact"
+            class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:p-0 md:hover:underline md:decoration-blue-600 md:decoration-4">
+            Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!---
+<div class="bg-base-100 border-b flex items-center justify-between text-gray-800">
+  <div class="">
+    <a href="/" aria-label="Company" title="home" class="inline-flex items-center">
+      <svg class="w-8 md:w-10 lg:w-12 text-blue-600 fill-current" viewbox="0 0 94.75 94.75">
+        <defs>
+          <path id="a" d="m19 76v19h4a4 4-180 004-4v-19a4 4-180 00-4-4h-19a4 4-180 00-4 4v4h19" />
+        </defs>
+        <use href="#a" transform="translate(18.13 -18.13)" />
+        <use href="#a" transform="rotate(180 38.31 56.44)" />
+        <use href="#a" transform="rotate(-90 29.25 47.38)" />
+        <use href="#a" transform="rotate(90 47.38 65.5)" />
+      </svg>
+      <span class="text-2xl md:text-3xl font-semibold md:font-bold">{{metadata.businessname}}</span>
+    </a>
+  </div>
+  <div class="text-lg tracking-wide">
+    <ul class="flex items-center space-x-8 pr-2">
+      <li><a href="/" class="hover:underline decoration-blue-600 decoration-4">Home</a></li>
+      <li><a href="/services" class="hover:underline decoration-blue-600 decoration-4">Services</a></li>
+      <li><a href="/team" class="hover:underline decoration-blue-600 decoration-4">Team</a></li>
+      <li><a href="/clinic" class="hover:underline decoration-blue-600 decoration-4">Clinic</a></li>
+      <li><a href="/contact" class="hover:underline decoration-blue-600 decoration-4">Contact</a></li>
+    </ul>
+  </div>
+</div>
+-->

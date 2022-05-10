@@ -1,0 +1,20 @@
+---
+layout: sub_page.html
+title: Services
+heading: Services
+description: At Taylor Veterinary Clinic, all of your pet’s needs from routine pet annual vaccinations, neuter and spays to major surgeries can be taken care by our Veterinarians.
+---
+
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 my-4">
+  {% for item in metadata.service %}
+    <div class="p-4 rounded-md border shadow">
+      <div class="flex items-center mb-2">
+        <svg class="w-6 h-6 pr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+        <div class="">
+          <p class="font-medium">{{ item.name }}</p>
+        </div>
+      </div>
+      <p class="text-justify">{{ item.description }}</p>
+    </div>
+  {% endfor %}
+</div>

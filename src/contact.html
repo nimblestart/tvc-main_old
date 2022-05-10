@@ -1,0 +1,36 @@
+---
+layout: sub_page.html
+title: Contact Us
+heading: Contact Us
+description: We are here to help, please use the below methods to contact our team. Thank you for your interest!
+---
+
+<div class="grid gap-4 lg:grid-cols-2 mt-4">
+  <div class="grid gap-4">
+    <div class="flex flex-col justify-start">
+      <p class="font-medium">Phone</p>
+      <p class="">{{metadata.contact.phoneDisplay}}</p>
+    </div>
+    <div class="flex flex-col justify-start">
+      <p class="font-medium">Email</p>
+      <p class="">{{metadata.contact.email}}</p>
+    </div>
+    <div class="flex flex-col justify-start">
+      <p class="font-medium">Address</p>
+      <p class="">{{ metadata.address.street }}</p>
+      <p class="">{{ metadata.address.city }}</p>
+      <p class="">{{ metadata.address.state }}, {{ metadata.address.zipcode }}</p>
+    </div>
+    <div class="flex flex-col justify-start">
+      <p class="font-medium">Hours</p>
+      <p class="">Mon-Fri: {{ metadata.hours.weekday }}</p>
+      <p class="">Sat: {{ metadata.hours.saturday }}</p>
+      <p class="">Sun: {{ metadata.hours.sunday }}</p>
+    </div>
+  </div>
+
+  <div class=""> <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.433121111394!2d-113.84100698431206!3d52.289992779771296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5374545b14d13343%3A0xd949168d8d4dcb47!2s6730%20Taylor%20Dr%20%23105%2C%20Red%20Deer%2C%20AB%20T4P%201K4%2C%20Canada!5e0!3m2!1sen!2sus!4v1651692928891!5m2!1sen!2sus"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+</div>

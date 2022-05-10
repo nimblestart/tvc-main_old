@@ -1,0 +1,13 @@
+---
+layout: base.html
+---
+<div class="flex flex-col items-center text-justify">
+  <div class="text-xl md:text-2xl mt-8 underline decoration-blue-600 decoration-4 uppercase tracking-wider"> {{ heading }}</div>
+  <div class="my-4"> {{ description }} </div>
+</div>
+
+<section class="overflow-hidden">
+  <div class="container">
+    {{ content | safe }}
+  </div>
+</section>

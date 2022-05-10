@@ -1,0 +1,28 @@
+favicon
+robots.txt
+sitemap
+404
+mobile nav
+html minify
+
+
+    <meta name="description" content="{{ site.business.name }}">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="robots" content="{{ robots if robots else 'index,follow' }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    {# include social meta tags #}
+    {% include "components/social-meta.njk" %}
+
+    {# include favicon, fonts, etc #}
+
+
+    <a class="sr-only" href="#main">Skip to content</a>
+
+
+https://kitwind.io/products/kometa
+
+
+      <img class="object-cover w-full h-56 rounded lg:rounded-none lg:shadow-none md:h-96 lg:h-full" src="hero.jpg"
+      {% image "./src/static/hero.jpg", "photo of my cat", "(min-width: 30em) 50vw, 100vw"  %}
+        alt="" />

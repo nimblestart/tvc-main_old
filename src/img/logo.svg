@@ -1,0 +1,9 @@
+		<svg xmlns="http://www.w3.org/2000/svg" fill="#3b82f6" viewBox="0 0 94.75 94.75">
+		  <defs>
+			<path id="a" d="m19 76v19h4a4 4-180 004-4v-19a4 4-180 00-4-4h-19a4 4-180 00-4 4v4h19"/>
+		  </defs>
+		  <use href="#a" transform="translate(18.13 -18.13)"/>
+		  <use href="#a" transform="rotate(180 38.31 56.44)"/>
+		  <use href="#a" transform="rotate(-90 29.25 47.38)"/>
+		  <use href="#a" transform="rotate(90 47.38 65.5)"/>
+		</svg>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ metadata.description }}">
+  <meta name="generator" content="11ty">
+  <link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | url }}">
+  <title>{{ metadata.title }} - {{ title }}</title>
+  <meta property="og:title" content="{{ metadata.title }}" />
+  <meta property="og:description" content="{{ metadata.description }}" />
+  <meta property="og:image" content="/logo.svg" />
+  <meta property="og:site_name" content="{{ metadata.title }}" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://unpkg.com/flowbite@1.4.5/dist/flowbite.js"></script>
+</head>
+
+<body class="flex flex-col md:h-screen justify-between mx-2 text-gray-800">
+  <header> {% include "header.html" %} </header>
+  <main> {{ content | safe }} </main>
+  <footer> {% include "footer.html" %} </footer>
+</body>
+
+</html>

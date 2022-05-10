@@ -1,0 +1,165 @@
+{
+  "title": "Taylor Veterinary Clinic",
+  "url": "https://www.taylorveterinaryclinic.com",
+  "description": "Taylor Veterinary Clinic is a well-equipped, full-service veterinary clinic offering a wide range of healthcare and complementary services. All of your pets needs from routine services to major surgeries can be taken care of by our Veterinarians. We take pride in providing veterinary care of the highest possible quality to all of our patients in accordance with the highest standards of the veterinary profession. We are located close to Highway 2A and Highway 12 intersection in Lacombe serving nearby communities - Lacombe, Blackfalds, Ponoka, Gull Lake. Services - vaccinations, neuter, spays, deworming, dental cleaning, health exam, health certificates, surgery, emergency services, self dog wash, grooming services.",
+  "businessname": "Taylor Veterinary Clinic",
+  "address": {
+    "street": "6730 Taylor Dr #105",
+    "city": "Red Deer",
+    "state": "AB",
+    "zipcode": "T4P 1K4",
+    "country": "CA",
+    "directions": "https://maps.google.com/maps?saddr=current+location&daddr=6730+Taylor+Dr+%23105,+Red+Deer,+AB+T4P+1K4,+Canada"
+  },
+  "contact": {
+    "phoneDisplay": "(403) 343-0888",
+    "phoneLink": "tel:+14033430888",
+    "fax": "(403) 343-0888",
+    "email": "taylorveterinaryclinic@gmail.com"
+  },
+  "hours": {
+    "weekday": "8 AM - 8 PM",
+    "saturday": "9 AM - 6 PM",
+    "sunday": "Closed"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/Taylor-Veterinary-Clinic-417810171615744/",
+    "instagram": "https://www.instagram.com/taylorveterinaryclinic/",
+    "twitter": "https://twitter.com/TaylorVetClinic"
+  },
+  "nav": [
+    {
+      "label": "Services",
+      "url": "/services/"
+    },
+    {
+      "label": "Contact",
+      "url": "/#/"
+    }
+  ],
+  "service": [
+    {
+      "name": "Wellness and Preventive Care",
+      "description": "We provide routine veterinary care for pets such as vaccination for preventable diseases, deworming for gastrointestinal parasites. Nutritional requirement of pets vary with breed, age and medical condition of dog or cat, for detailed information, please consult with our veterinarians."
+    },
+    {
+      "name": "Health or Clinical Examination",
+      "description": "Our veterinarians perform regular Health examination on pets (Dog, Cat and Exotics) and observe for signs of different medical condition. Health examination starts with medical history, followed by complete physical examination. During this process our staff Veterinarians may offer different diagnostics options to arrive at a definitive diagnosis."
+    },
+    {
+      "name": "National and International Health Certificates",
+      "description": "All pets traveling need a current exam for health and vaccine status. Regulations vary for different travel situations. Please check with the consulate of the country to which you are traveling to ensure all paperwork is complete."
+    },
+    {
+      "name": "Vaccinations",
+      "description": "Vaccines are given at annual appointments. Canine vaccines include:- Rabies vaccine, DA2PP (Distemper, Parvovirus, Adenovirus (Hepatitis) and Parainfluenza vaccine, Bordetella (Kennel Cough) vaccine, Leptosporosis and Lyme disease vaccine. Feline vaccines include:- Rabies vaccine, FVRCP (Panleukopenia or feline distemper, rhinotracheitis and calicivirus) vaccine and Leukemia vaccine."
+      
+    },
+    {
+      "name": "Spay and Neuter",
+      "description": "Dogs and cats should be sterilized to avoid unwanted pregnancies and some abnormal behaviors. In addition to unwanted pregnancies, Spaying females reduces or eliminate several uterine conditions (Pyometra, Metritis and Ovarian cysts) and Mammary gland tumors.  Neutering males reduces Prostitis, Paraphimosis and some abnormal behaviors. Ideal age for spay and neuter for dogs and cats is 6 months."
+    },
+    {
+      "name": "Dentistry",
+      "description": "Dogs and cats needs regular dental care to remove tartar and plaque to prevent pets loosing their teeth and remove bad breath. During routine visit at our hospital our veterinarians advise about routine dental hygiene of pets."
+    },
+    {
+      "name": "Radiology",
+      "description": "We are very happy to introduce state of art digital radiology machine at out Hospital, this equipment is used to diagnose and visualize within the animal body."
+    },
+    {
+      "name": "Diagnostics and Treatments",
+      "description": "We provide comprehensive diagnostics blood work, urine analysis, fecal analysis and much more to diagnose different medical conditions and treatments are provided accordingly."
+    },
+    {
+      "name": "Grooming, Day Boarding",
+      "description": "Our technician/assistants offer nail trimming, lionshaves and day boarding to our clients"
+    },
+    {
+      "name": "Online Store",
+      "description": "Our online store is live at https://taylorvetclinic.clientvantage.ca/. Clients can now browse through thousands of pet products and order from the comfort of your own home. Products can be picked up here at the clinic or shipped directly to you. Food, supplements, treats, toys and accessories can all be ordered online. Also, a HUGE selection of large animal (equine) and exotics (Rabbits, hamsters, reptiles, and birds!) Available to you at the click of a button! If you've been in lately and haven't seen what you're looking for, we bet you can find it on here! Click the link below to check out our website: https://taylorvetclinic.clientvantage.ca/Register online and you will have access on the same day. Give us a call if you have any question regarding this helpful new tool!"
+    }
+  ],
+  "team": [
+    {
+      "name": "Dr. S. Nain",
+      "title": "Veterinarian",
+      "picture": "/person.png",
+      "description": "Dr. Nain is working at Taylor Veterinary Clinic since May, 2012. Dr. Nain is one of the highly qualified Veterinarian, finished his PhD from University of Saskatchewan in 2008. Subsequently he worked for two years at Western College of Veterinary Medicine in Saskatoon and one year at University College of Veterinary Medicine, University of Calgary. Dr Nain has extensive experience in avian (Birds) health, toxicology and emergency medicine.",
+      "linkedin": "https://www.linkedin.com/in/sukhbir-nain-826b7321/",
+      "facebook": ""
+    },
+    {
+      "name": "Dr. S. Arya",
+      "title": "Veterinarian",
+      "picture": "/person.png",
+      "description": "Dr. Arya is working at Taylor Veterinary Clinic since May, 2012. Dr. Arya finished her MSc in Animal Nutrition from University of Saskatchewan in 2010. Dr. Arya volunteered at various veterinary facilities across western Canada in Lethbridge and Calgary before moving to Red Deer. Dr. Arya has special interest in preventive medicine, surgery and pet nutrition.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Dr. S. Saini",
+      "title": "Veterinarian",
+      "picture": "/person.png",
+      "description": "Dr Saini is currently working as a veterinarian. Profile coming soon.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Tiffany Anderson",
+      "title": "Animal Health Technologis",
+      "picture": "/person.png",
+      "description": "Tiffany is currently working as an Animal Health Technologist. She has worked in small animal practices for over 10 years, and has been a Veterinary Technician for the last 6 months. She has worked at our clinic since March 2021. She shares her home with a loud and demanding cat named Lily.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Jennifer Pulvermacher",
+      "title": "Clinic Manager",
+      "picture": "/person.png",
+      "description": "Jennifer is currently working as the Clinic Manager and is a certified Medical Office Assistant from Vancouver Island University. She has been a part of the team since Sept 2014. She has a passion for the well-being of animals and strives to give them the best care. She currently has 3 rowdy cats named Tux, Kitsy and Kaytan. She has plans to continue her education to become a certified Animal Health Technician.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Ashley Bruinsma",
+      "title": "Veterinary Assistant",
+      "picture": "/person.png",
+      "description": "Ashley is currently working as a Veterinary Assistant. She has been raised in Red Deer. She went to Olds College for her Veterinary Medical Reception. She has been working in mixed animal practices for 4 years. She started on Taylor Veterinary Clinic in 2021. She has 2 dogs (Ryuu and Juda) and 1 cat that she loves spending her free time with.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Jolene Janes",
+      "title": "Veterinary Assistant",
+      "picture": "/person.png",
+      "description": "Jolene is currently working as a Veterinary Assistant. She has been at the clinic since 2017. She went to Olds College for her Veterinary Medical Reception certificate. She has a passion for animals and spends her time with her 2 cats (Kirby and Link) and at the dog park with her 2 super high-energy dogs (Skye and Ellie). She has 2 wonderful little boys that fill her life with joy.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Stephanie Rempel",
+      "title": "Veterinary Assistant",
+      "picture": "/person.png",
+      "description": "Stephanie is full time mom of two beautiful daughters and is currently working as a Veterinary Assistant. She started out as a Health Care Aid, and then proceeded to further her education as a Medical Office Assistant before deciding to switch to Veterinary medicine. She loves to spend her time here at work with all of the animals, or at the dog park with her Chihuahua named Cali and her Blue Heeler named Akita.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Sarah Woodcock",
+      "title": "Veterinary Assistant",
+      "picture": "/person.png",
+      "description": "Sarah is currently working as a Veterinary Assistant. She completed the Veterinary Medical Reception certificate at Olds College and is currently attending Olds again for her last year of the Animal Health Technician. She hopes to work as a technician once she has completed her schooling. She has 2 cats, Atlas and Ripley. She likes to spend her free time outside and travelling.",
+      "linkedin": "/",
+      "facebook": "/"
+    },
+    {
+      "name": "Kaitlynn Batt",
+      "title": "Veterinary Assistant",
+      "picture": "/person.png",
+      "description": "Kaitlynn is currently working as a Veterinary Assistant. She is hoping to get accepted into the Animal Health Technician program by the end of this year. She has 2 cats and a bearded dragon. She has a passion for animals and the outdoors. Some of her hobbies include snowboarding, quadding, longboarding and camping.",
+      "linkedin": "/",
+      "facebook": "/"
+    }
+  ]
+}
