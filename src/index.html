@@ -2,29 +2,31 @@
 layout: base.html
 title: Home
 ---
-<section class="py-2">
-  <div class="flex flex-col md:flex-row items-center md:p-16">
-    <div class="md:pl-6 md:pr-16 py-4">
-      <h1 class="text-2xl md:text-5xl font-extrabold">Your Lovely Pet,<br class="hidden md:block"><span class="text-blue-600"> is ours too!</span>
-      </h1>
-      <p class="py-4 md:py-6 md:text-xl text-justify">We understand that a pet is part of the family, the day your pet enters our
-        clinic it becomes part of our family.</p>
-      <p class="py-4 md:py-6 md:text-xl text-justify">Call or visit us, we would love to hear about your pet.</p>
-
-      <div class="flex space-x-4">
-        <a href="{{metadata.contact.phoneLink}}" target="_blank">
-          <button type="button"
-            class="whitespace-nowrap inline-block px-4 py-4 bg-blue-600 text-white font-semibold leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
-            {{metadata.contact.phoneDisplay}}</button>
-        </a>
-        <a href="https://maps.google.com/maps?saddr=current+location&amp;daddr=6730+Taylor+Dr+%23105,+Red+Deer,+AB+T4P+1K4,+Canada" target="_blank">
-          <button type="button"
-            class="inline-block px-4 py-4 bg-gray-200 text-gray-700 font-semibold leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">Directions</button>
-        </a>
-      </div>
+<div class="flex flex-col md:flex-row p-6 gap-4">
+  <div class="grid gap-4 content-between md:py-24">
+    <div class="text-2xl md:text-5xl font-extrabold">
+      Your Lovely Pet,<br class="hidden md:block"><span class="text-blue-600"> is ours too!</span>
     </div>
-    <div class="order-first md:order-last">
-      <img src="hero.jpeg" class="md:max-w-3xl rounded-md shadow-md" />
+    <div>
+      <p class="md:text-xl text-justify mb-6">We understand that a pet is part of the family, the day your pet enters
+        our
+        clinic it becomes part of our family.</p>
+      <p class="md:text-xl text-justify">Call or visit us, we would love to hear about your pet.</p>
+    </div>
+    <div class="flex space-x-4 justify-center md:justify-start">
+      <a href="{{metadata.contact.phoneLink}}" target="_blank">
+        <button type="button"
+          class="whitespace-nowrap inline-block px-4 py-4 bg-blue-600 text-white font-semibold leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">
+          {{metadata.contact.phoneDisplay}}</button>
+      </a>
+      <a href="https://maps.google.com/maps?saddr=current+location&amp;daddr=6730+Taylor+Dr+%23105,+Red+Deer,+AB+T4P+1K4,+Canada"
+        target="_blank">
+        <button type="button"
+          class="inline-block px-4 py-4 bg-gray-200 text-gray-700 font-semibold leading-tight uppercase rounded shadow-md hover:bg-gray-300 hover:shadow-lg focus:bg-gray-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-400 active:shadow-lg transition duration-150 ease-in-out">Directions</button>
+      </a>
     </div>
   </div>
-</section>
+  <div class="order-first md:order-last">
+    <img src="hero.jpeg" class="rounded-md" />
+  </div>
+</div>
