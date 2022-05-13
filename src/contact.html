@@ -5,23 +5,23 @@ heading: Contact Us
 description: We are here to help, please use the below methods to contact our team. Thank you for your interest!
 ---
 
-<div class="grid gap-4 lg:grid-cols-2 mt-4">
-  <div class="grid gap-4">
-    <div class="flex flex-col justify-start">
+<div class="flex flex-col md:flex-row gap-4 md:gap-36 justify-center">
+  <div class="grid gap-2">
+    <div class="flex flex-col">
       <p class="font-medium">Phone</p>
       <p class="">{{metadata.contact.phoneDisplay}}</p>
     </div>
-    <div class="flex flex-col justify-start">
+    <div class="flex flex-col">
       <p class="font-medium">Email</p>
       <p class="">{{metadata.contact.email}}</p>
     </div>
-    <div class="flex flex-col justify-start">
+    <div class="flex flex-col">
       <p class="font-medium">Address</p>
       <p class="">{{ metadata.address.street }}</p>
       <p class="">{{ metadata.address.city }}</p>
       <p class="">{{ metadata.address.state }}, {{ metadata.address.zipcode }}</p>
     </div>
-    <div class="flex flex-col justify-start">
+    <div class="flex flex-col">
       <p class="font-medium">Hours</p>
       <p class="">Mon-Fri: {{ metadata.hours.weekday }}</p>
       <p class="">Sat: {{ metadata.hours.saturday }}</p>

@@ -19,7 +19,7 @@
   },
   "hours": {
     "weekday": "8 AM - 8 PM",
-    "saturday": "9 AM - 6 PM",
+    "saturday": "9 AM - 5 PM",
     "sunday": "Closed"
   },
   "social": {
@@ -107,7 +107,7 @@
     },
     {
       "name": "Tiffany Anderson",
-      "title": "Animal Health Technologis",
+      "title": "Animal Health Technologist",
       "picture": "/person.png",
       "description": "Tiffany is currently working as an Animal Health Technologist. She has worked in small animal practices for over 10 years, and has been a Veterinary Technician for the last 6 months. She has worked at our clinic since March 2021. She shares her home with a loud and demanding cat named Lily.",
       "linkedin": "/",
